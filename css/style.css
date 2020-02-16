@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  color: yellow;
+  font-size: 60px;
+  width: 1%;
+}
+body{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+
+}
+.box {
+  /* border: 1px solid black; */
+  height: 100px;
+  width: 20%;
+  float: left;
+  margin: 10px;
+  font-size: 50px;
+  padding: 3%;
+  color: #00ff89;
+}
+.button{
+  width: 8%;
+  height: 20px;
+  background-color: green;
+}
+img{
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.main{
+  margin: 18% 0% 1% 22%;
+}
+h1{
+  margin: inherit;
+}
